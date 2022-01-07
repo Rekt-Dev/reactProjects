@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+          <h1>
+            <span>emojipedia</span>
+          </h1>
+          <dl classname="dictionary" />
+          <div classname="term">
+              <dt>
+                <span className='emoji' role="img" aria-label="Tense Biceps">
+                💪
+                </span>
+                  <span>Tense Biceps</span>
+
+              </dt>
+              <dd>
+              “You can do that!” or “I feel strong!” Arm with tense biceps. Also used in connection with doing sports, e.g. at the gym.
+              </dd>
+
+
+
+
+
+          </div>
+
+
     </div>
   );
 }
