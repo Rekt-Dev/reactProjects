@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 
 
 body {
@@ -22,7 +20,7 @@ h1 {
 
 h1 span {
   padding: 5px 15px;
-  background: #2ec2b0;
+  background: #c090b0;
 }
 
 .dictionary {
@@ -55,7 +53,7 @@ dt {
 
 dt span {
   font-size: 200%;
-  font-weight: 900;
+  font-weight: 500;
 }
 
 .emoji {

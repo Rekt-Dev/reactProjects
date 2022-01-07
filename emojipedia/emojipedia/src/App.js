@@ -1,33 +1,32 @@
 import './App.css';
+import './styles.css'
+import './emojipedia'
+import './App.js'
+import Entry from './components/Entry'
+import emojipedia from './emojipedia';
+
+
+function PlaceData(emojiTerm){
+  return(<Entry 
+      key={emojiTerm.id}
+      emoji={emojiTerm.emoji}
+      name={emojiTerm.name}
+      description={emojiTerm.meaning}
+  />
+  )
+}
 
 function App() {
   return (
-    <div >
+    <div > 
           <h1>
             <span>emojipedia</span>
           </h1>
-          <dl classname="dictionary" />
-          <div classname="term">
-              <dt>
-                <span className='emoji' role="img" aria-label="Tense Biceps">
-                💪
-                </span>
-                  <span>Tense Biceps</span>
-
-              </dt>
-              <dd>
-              “You can do that!” or “I feel strong!” Arm with tense biceps. Also used in connection with doing sports, e.g. at the gym.
-              </dd>
+         <dl className='dictionary'> {emojipedia.map(PlaceData)}</dl>
 
 
-
-
-
-          </div>
-
-
-    </div>
-  );
+           </div>
+  ); 
 }
 
 export default App;
