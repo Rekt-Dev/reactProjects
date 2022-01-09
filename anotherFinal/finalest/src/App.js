@@ -17,13 +17,11 @@ console.log(`this is get time function: ${GetTime()}`)
 function App() {
   return ( 
     <div className='container'> 
-                          {isUserRegistered===true ? 
                           
-                          <Login /> 
-                          :
+                      
                           <Form 
-                          
-                          /> }
+                          isRegistered={isUserRegistered}
+                          /> 
     </div>) 
 
   }
