@@ -2,7 +2,7 @@ import './App.css';
 import React from "react"
 import Login from "./components/Login"
 import Registration from "./components/Registration"
-import Form from "./components/Form" 
+import Form from "./components/Form"  
 import LoggedIn from "./components/LoggedIn"
 import GetTime from "./components/GetTime"
 
