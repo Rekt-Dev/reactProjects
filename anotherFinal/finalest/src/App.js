@@ -2,37 +2,30 @@ import './App.css';
 import React from "react"
 import Login from "./components/Login"
 import Registration from "./components/Registration"
-import Form from "./components/Form"
+import Form from "./components/Form" 
 import LoggedIn from "./components/LoggedIn"
 import GetTime from "./components/GetTime"
 
 let isLoggedIn = false
-let greeting=""
-
-let isUserRegistered = true
-
-
+let isUserRegistered = false
+let usersArray=[]
 
 GetTime()
 console.log(`this is get time function: ${GetTime()}`)
-function showRegistrationPage(){
-  if(isUserRegistered===false){
-    return <div>
-<Form />
-      </div>
-  } else {
-    return <Login />
-  }
-}
+
+
 function App() {
   return ( 
     <div className='container'> 
-
-      {isLoggedIn===true ? 
-           <LoggedIn /> : <Form />}
-
+                          {isUserRegistered===true ? 
+                          
+                          <Login /> 
+                          :
+                          <Form 
+                          
+                          /> }
     </div>) 
 
   }
-export default {App,greeting};
+export default App
  
