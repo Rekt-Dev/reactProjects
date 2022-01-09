@@ -52,12 +52,12 @@ const emojipedia = [
 },{
     id:8,
     emoji:"🙏",
-    name:" Person With Folded Hands",
+    name:" Person With omicron, praying for a ventilator",
     meaning:"Two hands pressed together. Is currently very introverted, saying a prayer, or hoping for enlightenment. Is also used as a “high five” or to say thank you."
 },{
     id:9,
     emoji:"🙏",
-    name:" Person With Folded Hands",
+    name:" Person With a penetrated assshole praying for support",
     meaning:"Two hands pressed together. Is currently very introverted, saying a prayer, or hoping for enlightenment. Is also used as a “high five” or to say thank you."
 },{
     id:10,
