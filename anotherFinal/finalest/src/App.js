@@ -1,33 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
 import React from "react"
-
-
+import Login from "./components/Login"
 let isLoggedIn = false
 
-function conditionRendering(){ 
-  if (isLoggedIn===true){
-    return <h1>Sup sire/maam ? <br></br>
-     <br></br>
-      U r logged in.</h1>
-      
-  } else {
-    return (<form className='form' >
-    <input type='text' placeholder="Username" />
-  <input type= 'password' placeholder='Password' />
-  <button type="submit">Login</button> 
-</form>)
-  }
-}
+
 
 
 function App() {
   return (
-    <div className='container' >
-      <h1>Hello ! </h1>
-      {conditionRendering()}
-    </div>
-  );
-}
+    <div className='container'>
+      {isLoggedIn===true ? <h1>Sup sire/maam ? U r logged in. </h1>:<Login />}
 
+    </div>)
+
+  }
 export default App;
