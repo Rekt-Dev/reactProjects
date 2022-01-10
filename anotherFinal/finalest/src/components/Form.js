@@ -8,7 +8,7 @@ function Form(props){
                     {props.isRegistered===false && ( 
                 <input type="password" placeholder="Confirm Password" />
                 )}
-                <input type="button" onClick={} className = "form-control-submit-buttontype="  placeholder={props.isRegistered ? "Login" : "Register"} />
+                <button type="button" className = "form-control-submit-buttontype="  placeholder={props.isRegistered ? "Login" : "Register"} />
 
             </form>
 
