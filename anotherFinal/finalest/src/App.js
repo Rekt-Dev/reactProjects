@@ -8,22 +8,22 @@ import GetTime from "./components/GetTime"
 
 let isLoggedIn = false
 let isUserRegistered = false
-let usersArray=[]
+let usersArray=[{ofear:"browtaf"}, {david:"sirstehp"}]
 
 GetTime()
 console.log(`this is get time function: ${GetTime()}`)
 
+//function 
 
 function App() {
-  return ( 
-    <div className='container'> 
-                          
-                      
+  return (<div className='container'> 
                           <Form 
                           isRegistered={isUserRegistered}
                           /> 
-    </div>) 
+                              {isLoggedIn===true  && <LoggedIn />  
+                                         
+                              } </div>)}
 
-  }
+
+  
 export default App
- 
