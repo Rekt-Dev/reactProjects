@@ -1,6 +1,6 @@
 import React from "react"
 
-const name = "0fear"
+ const name = "0fear"
 const currentDate=new Date()
 const year = currentDate.getFullYear()
 
@@ -18,4 +18,5 @@ function Footer(){
 }
 
     
-export * from Footer as obj
+export default Footer
+export  {name}
