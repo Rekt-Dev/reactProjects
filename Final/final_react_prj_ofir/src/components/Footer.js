@@ -18,4 +18,4 @@ function Footer(){
 }
 
     
-export default Footer
+export * from Footer as obj
