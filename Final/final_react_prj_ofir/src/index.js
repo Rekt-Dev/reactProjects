@@ -6,7 +6,7 @@ import App from './App';
 import Footer from './components/Footer';
 import Header from "./components/Header"
 import Card from "./components/Card"
-
+import {name} from "./components/Footer"
 
 
 ReactDOM.render(
@@ -55,7 +55,8 @@ ReactDOM.render(
     email="bl3h@online.org "
 
     />
-    
+    <h1>{name}</h1>
+
 <Card 
     
     
@@ -65,7 +66,6 @@ ReactDOM.render(
 <Card />
 
     <App />
-
     <Footer /> 
 
   </React.StrictMode>,   
