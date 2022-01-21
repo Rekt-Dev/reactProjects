@@ -16,7 +16,7 @@ const App = ()=> {
      <Grid>
              {/* I do not know who row is or what she does ? ...*/}
        <Row>
-         <button onClick={clicked} >
+         <button onClick ={clicked} >
           {showCounter? "Hide counter":"Show counter"}
          </button>
        </Row>
