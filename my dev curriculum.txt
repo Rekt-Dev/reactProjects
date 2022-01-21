@@ -1,0 +1,92 @@
+ What im gonna learn : 
+--------------------
+
+- Freecodecamp 3.5 hour beginner  
+- Scrimba 7.5 hours full tutorial. 
+- 15 vanilla JS projects
+- nodejs moshs tutorial.
+- nodejs full tutorial freecode
+- Hebrew books from neta.
+- ES.
+- json
+- jquery.
+- typeScript.
+- node.js 
+- MDN - reintroduction 2 JS.   
+- Frameworks:
+	- react (react server 2 work with express server)
+	- angularflex
+	- vue
+	- express
+	- 
+
+things 2 study pre-react:
+- scss, media queries, flex, grid, architectures, libraries:    (bootstrap/tailwind)
+- seo, api, rest, servers, cookies, headers.
+- browser apis
+- elements style and computed.
+- lighthouse
+- git
+- cloud basics for deployment
+- linting 
+- prettier
+- code bundlers like webpack.
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+
+
+-gatsby site gen with react +node
+- mongodb
+- sql
+
+
+- ajax 
+
+libraries:
+-three.js (library) - webgpu is the new webgpl . study gpu moar.
+-webgl - the anti new flash 
+
+
+langs:
+Google - go. 
+python.
+html5
+css
+----------------------------------------------------------
+
+UdemyAdvanced JS curriculum:
+
+"Advanced JavaScript Practices
+Object Oriented Programming
+Functional Programming
+Scope and Execution Context
+Inheritance + Prototype Chain
+Latest features: ES6, ES7, ES8, ES9, ES10, ES2020
+Closures
+Asynchronous JavaScript + Event Loop
+JavaScript Modules
+`this` keyword
+JavaScript Engine and Runtime
+Error Handling
+Stack Overflow
+Memory Leaks
+Composition vs Inheritance
+Type Coersion
+Pass By Reference vs Pass by Value
+Higher Order Functions
+IIFE
+.call(), .apply(), .bind()
+Interpreter/ Compiler/ JIT Compiler
+Garbage Collection
+Hoisting
+JavaScript best practices"
