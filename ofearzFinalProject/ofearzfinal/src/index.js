@@ -16,7 +16,7 @@ ReactDOM.render(
 <button>porn</button>
 <button >david haselhoff</button>
 <ul className="bleh"><li>salinka</li><li>kaldaifa</li><li>vintogas</li><li>kawitza</li></ul>
-<footer /> / </div> ,
+<footer />7 / </div> ,
 
   document.getElementById('root')
 );
