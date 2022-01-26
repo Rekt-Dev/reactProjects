@@ -5,6 +5,7 @@ import Registration from "./components/Registration"
 import Form from "./components/Form"  
 import LoggedIn from "./components/LoggedIn"
 import GetTime from "./components/GetTime"
+import styles from "./styles.css"
 
 let isLoggedIn = false
 let isUserRegistered = false
@@ -27,3 +28,4 @@ function App() {
 
   
 export default App
+export {isUserRegistered}

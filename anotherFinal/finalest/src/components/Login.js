@@ -1,14 +1,15 @@
 import React from "react"
 import Input from "./Input"
+import styles from "../styles.css"
 
 function Login(){
    return ( 
        <div>
         <form className='form' >
-       <Input className="" type="text" placeholder="Username" />
+       <Input className="button" type="text" placeholder="Username" />
        <Input type ="password" placeholder="Password" />
 
-  <button className="form-control-input" type="submit">Login</button> 
+  <button className="button" type="submit">Login</button> 
 </form>
 </div>
    )}
