@@ -1,11 +1,11 @@
 import './App.css';
 import  './styles.css'
-import cardDataArray from './components/cardDataArray';
 
 function App() {
   return (
    <div>
-<h1 >this is  a story about {cardDataArray[2].name}</h1>
+<h1 >Footer is here</h1>
+<h2>this is an H2</h2>
     </div>
   );
 }

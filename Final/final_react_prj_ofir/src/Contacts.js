@@ -1,5 +1,7 @@
 
-import React from "react"
+
+function Contacts(){
+
 let cardDataArray=[
     {
 id:1,
@@ -29,5 +31,6 @@ email: "pope@religion.org"
             }
         ]
 
-
-export default cardDataArray
+        return cardDataArray
+    }
+export default Contacts

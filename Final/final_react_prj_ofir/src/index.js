@@ -6,8 +6,7 @@ import App from './App';
 import Footer from './components/Footer';
 import Header from "./components/Header"
 import Card from "./components/Card"
-import cardDataArray from "./components/cardDataArray"
-
+import {name} from "./components/Footer"
 
 
 ReactDOM.render(
@@ -26,7 +25,7 @@ ReactDOM.render(
     name="joseph"
     img="https://w2.chabad.org/media/images/922/tVUv9226297.jpg"
     tel="+123-543-7654"
-    email="bl3h@offline.org "
+    email="bl3h@idle.org "
 
     /> 
 
@@ -39,8 +38,34 @@ ReactDOM.render(
 
     />
 
-    <App />
+<Card 
+    
+    name="David Haselhoff"
+    img= "https://images.e-flux-systems.com/315683_12e787bf4e7eeb8bcc18c10355ecda86.jpg,1024"
+    tel="+012-666-8869"
+    email="bl3h@online.org "
 
+    />
+
+<Card 
+    
+    name="Timothy Leary"
+    img= "https://cdn.britannica.com/18/194518-050-AEEE0F57/Timothy-Leary.jpg"
+    tel="+012-666-8869"
+    email="bl3h@online.org "
+
+    />
+    <h1>{name}</h1>
+
+<Card 
+    
+    
+
+    />
+
+<Card />
+
+    <App />
     <Footer /> 
 
   </React.StrictMode>,   
