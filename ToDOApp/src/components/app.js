@@ -9,20 +9,21 @@ let array=[]
 function handleChange(event){
   const newValue=event.target.value
   setInputText(newValue)
+  console.log(items)
     console.log(inputText)
     console.log(array)
 
 }
 
 function handleClick(){
-  array.push(inputText)
 console.log(array)
 }
 
 function addItem(){
-  setItems((prevItems) => {
-    return[...prevItems, inputText]
-  })
+
+  setItems((prevItems) => 
+    [...prevItems, inputText]
+  )
 }
 
   return (
@@ -32,7 +33,7 @@ function addItem(){
       </div>
       <div className="form">
         <input onChange={handleChange} value={inputText}type="text" />
-        <button onClick={handleClick}>
+        <button onClick={addItem}>
           <span>Add</span>
         </button>
       </div>
